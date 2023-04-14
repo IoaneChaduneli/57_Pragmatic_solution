@@ -15,7 +15,7 @@ def calculate_retire_year(your_age, retire_age):
         Current_year = datetime.datetime.now().year
         Retire_year = Current_year + after_year
         if your_age < retire_age:
-            return f"You will retire after {after_year} years later\n You will retire in {Retire_year}"
+            return f"You will retire after {after_year} years later\nYou will retire in {Retire_year}"
         else:
             return f"You retired {abs(after_year)} years ago\nYou retired in {Retire_year}"
     else:
